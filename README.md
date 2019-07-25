@@ -7,6 +7,7 @@ il s'agit d'un script qui converti un nombre en son équivalent en lettre en res
 2- vous pouvez executer le fichier test qui donne l'equivalent des nombre compris entre 0 et 999 (pour le moment)
 3- ou vous pouvez importer le module avec l'instruction (import)
 
+
 # -exemple
 
 from n2l import n2l
