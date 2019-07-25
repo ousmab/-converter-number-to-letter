@@ -4,7 +4,9 @@ il s'agit d'un script qui converti un nombre en son équivalent en lettre en res
 # -comment tester le module n2l ?
 
 1- clôner le depôt sur votre disque dur
+
 2- vous pouvez executer le fichier test qui donne l'equivalent des nombre compris entre 0 et 999 (pour le moment)
+
 3- ou vous pouvez importer le module avec l'instruction (import)
 
 
