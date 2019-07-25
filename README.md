@@ -5,7 +5,7 @@ il s'agit d'un script qui converti un nombre en son équivalent en lettre en res
 
 1- clôner le depôt sur votre disque dur
 
-2- vous pouvez executer le fichier test qui donne l'equivalent des nombre compris entre 0 et 999 (pour le moment)
+2- vous pouvez executer le fichier <test.py> qui donne l'equivalent des nombre compris entre 0 et 999 (pour le moment)
 
 3- ou vous pouvez importer le module avec l'instruction (import)
 
