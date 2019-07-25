@@ -10,10 +10,8 @@ def n2l(nbre) :
 	la fonction n2l prend en argument un nbre compris entre 0 et 999 et retourne son equivalent en lettre
 	"""
 	#verifier si cest le bon nombre
-	try:
-		nbre = int(nbre)
-	except :
-		print("veuiller saisir un nombre valide")
+	if not isinstance(nbre,int):
+		raise TypeError("you must enter an integer value ")
 
 	#le mot en lettre qu'il faut retourner 
 	letterToReturn = ""
