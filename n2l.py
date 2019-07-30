@@ -1,13 +1,38 @@
 #coding: utf-8
 
 
-constants = {0:'zero',1:"un",2:"deux",3:"trois",4:"quatre",5:"cinq",6:"six",7:"sept"
-,8:"huit",9:"neuf",10:"dix",11:"onze",12:"douze",13:"treize",14:"quatorze",15:"quinze",16:"seize",
-20:"vingt",30:"trente",40:"quarante",50:"cinquante",60:"soixante",100:"cent"}
+constants = {
+	0:'zero',
+	1:"un",
+	2:"deux",
+	3:"trois",
+	4:"quatre",
+	5:"cinq",
+	6:"six",
+	7:"sept",
+	8:"huit",
+	9:"neuf",
+	10:"dix",
+	11:"onze",
+	12:"douze",
+	13:"treize",
+	14:"quatorze",
+	15:"quinze",
+	16:"seize",
+	20:"vingt",
+	30:"trente",
+	40:"quarante",
+	50:"cinquante",
+	60:"soixante",
+	100:"cent"}
+
+
+
 
 def n2l(nbre) :
 	"""
-	la fonction n2l prend en argument un nbre compris entre 0 et 999 et retourne son equivalent en lettre
+	la fonction n2l prend en argument un nbre compris entre 0 et 999 et 
+	retourne son equivalent en lettre
 	"""
 	#verifier si cest le bon nombre
 	if not isinstance(nbre,int):
@@ -15,6 +40,7 @@ def n2l(nbre) :
 
 	#le mot en lettre qu'il faut retourner 
 	letterToReturn = ""
+	
 	
 	
 	# On verifier si le parametre <nbre> n'est pas dans notre dictionnaire des constantes
@@ -55,7 +81,7 @@ def n2l(nbre) :
 				if nbreDizaine == 7:
 					if nbreUnite ==0:
 						letterToReturn += constants[nbreCentaine*100]+"-"+ constants[60]+"-"+constants[10]
-					elif nbreUnite not in [7,8,9]:
+					elif nbreUnite not in [7, 8, 9]:
 						letterToReturn += constants[nbreCentaine*100] + "-"+ constants[60]+"-"+constants[int("1"+str(nbreUnite))]
 					else:
 						letterToReturn += constants[nbreCentaine*100]+ "-"+ constants[60]+"-"+constants[10]+"-"+constants[nbreUnite]					
