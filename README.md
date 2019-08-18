@@ -1,4 +1,4 @@
-# -converter-number-to-letter
+# -converter-number-to-letter | I GOT IT!
 il s'agit d'un script qui converti un nombre en son équivalent en lettre en respectant la règle orthographique de 1990
 
 # -comment tester le module n2l ?
@@ -18,6 +18,6 @@ votre_nombre = 623
 
 nombre_en_lettre = n2l(votre_nombre)
 
-(vous aurez dont : six-cent-vingt-trois) 
+(vous aurez dont : six-cent-vingt-trois)
 
 merci !!!
